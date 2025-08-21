@@ -129,16 +129,16 @@ dotnet test --filter "FullyQualifiedName~CalculatorTests"
 # Test sonuçlarını XML formatında kaydetme
 dotnet test --logger "trx;LogFileName=testresults.trx"
 
-# 🔹 Console üzerinde detaylı test sonucu alma
+# Console üzerinde detaylı test sonucu alma
 dotnet test --logger "console;verbosity=detailed"
 
-# 🔹 HTML raporu oluşturma
+# HTML raporu oluşturma
 dotnet test --logger "html;LogFileName=testresults.html"
 
-# 🔹 JUnit XML raporu oluşturma (Jenkins / GitLab CI gibi araçlarda kullanılır)
+# JUnit XML raporu oluşturma (Jenkins / GitLab CI gibi araçlarda kullanılır)
 dotnet test --logger "junit;LogFileName=testresults.xml"
 
-# 🔹 JSON formatında test sonucu alma
+# JSON formatında test sonucu alma
 dotnet test --logger "json;LogFileName=testresults.json"
 ```
 
